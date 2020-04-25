@@ -5,6 +5,6 @@ mask detection using open-cv python
     conda install notebook ipykernel nb_conda_kernels
 
 ## create conda env
-    conda env create -f environment.yml\n
+    conda env create -f environment.yml
     conda activate mask_detection
 
