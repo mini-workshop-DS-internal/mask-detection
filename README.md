@@ -9,5 +9,6 @@ mask detection using open-cv python
 ## create conda env
     cd mask-detection
     conda env create -f environment.yml
+    jupyter notebook 
 
 
