@@ -1,0 +1,20 @@
+name: mask_detection
+
+channels:
+- anaconda 
+- conda-forge
+
+dependencies:
+# Essential
+- python==3.7.6
+- nb_conda_kernels==2.2.0
+- pip==19.3.1
+- ipython==7.1.1
+# Data Science
+- numpy==1.18.1
+# Visualization
+- matplotlib==3.1.2
+
+- pip:
+  # CV
+  - opencv-python==4.1.2.30
